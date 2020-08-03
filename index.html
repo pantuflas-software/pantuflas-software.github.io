@@ -1,7 +1,421 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Pantuflas Software</title>
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
 <body>
-<h1>Hola Mundo</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Pantuflas Software</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--
+					<li>
+                        <a href="about.html">About</a>
+                    </li>
+					
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+					
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prods <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">Demos</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">Intro 64kb</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">Intro 4kb</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+					-->
+					<!--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+					
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+					-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+				<div class="fill" style="background-image:url('images/quantum_station.jpg');"></div>
+				<div class="carousel-caption">
+                    <h2>Quantum Station</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/corona_summer.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Corona Summer</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/oldskull.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>OldSkull</h2>
+                </div>
+            </div>
+			<div class="item">
+                <div class="fill" style="background-image:url('images/industrial_light_music.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Industrial Light & Music</h2>
+                </div>
+            </div>
+			
+			<div class="item">
+                <div class="fill" style="background-image:url('images/portable_computation.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Portable Computation</h2>
+                </div>
+            </div>
+			
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Pantuflas Software, for your confort...
+                </h1>
+            </div>
+			<!--
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.3.7</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+			-->
+        </div>
+        <!-- /.row -->
+
+
+		<div class="row products">
+
+            <div class="col-lg-12">
+                <h2 class="page-header">Android</h2>
+            </div>
+		
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/quantum_station.jpg" alt="">
+					<div class="panel-body">					
+						<h4><a href="https://www.youtube.com/watch?v=Ms_DDX4yCsY" target="_blank">Quantum Station</a></h4>
+						<p>Android demo released at Euskal Encounter 28 Open Demo Compo.</p>						
+						<p>
+							<a href="prods/PTF-Quantum_Station_demo_final.apk" class="btn btn-default">APK download</a>			
+							<a href="https://play.google.com/store/apps/details?id=com.pantuflas.demoeuskal2020" target="_blank" class="btn btn-default">Google Play</a>							
+							<a href="https://www.youtube.com/watch?v=Ms_DDX4yCsY" target="_blank" class="btn btn-default">Video</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/corona_summer.jpg" alt="">
+					<div class="panel-body">
+						<h4><a href="https://www.youtube.com/watch?v=CFJMMzNMFuc" target="_blank">Corona Summer</a></h4>
+						<p>Android intro 64kb released at Euskal Encounter 28 Open Intro Compo.</p>
+						<p>
+							<a href="prods/PTF-Corona_Summer_in64k_final.apk" class="btn btn-default">APK download</a>			
+							<a href="https://www.youtube.com/watch?v=CFJMMzNMFuc" target="_blank" class="btn btn-default">Video</a>							
+						</p>
+					</div>				
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/oldskull.jpg" alt="">
+					<div class="panel-body">					
+						<h4><a href="https://www.youtube.com/watch?v=DTp4sw5pQ54" target="_blank">OldSkull</a></h4>
+						<p>Small android demo released at Capacitor Party 2019 Wild Compo.</p>
+						<p>
+							<a href="prods/PTF-OldSkull.apk" class="btn btn-default">APK download</a>			
+							<a href="https://play.google.com/store/apps/details?id=com.pantuflas.capacitor2019" target="_blank" class="btn btn-default">Google Play</a>							
+							<a href="https://www.youtube.com/watch?v=DTp4sw5pQ54" target="_blank" class="btn btn-default">Video</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/industrial_light_music.jpg" alt="">
+					<div class="panel-body">
+						<h4><a href="https://www.youtube.com/watch?v=wdmCuiGug98" target="_blank">Industrial Light & Music</a></h4>
+						<p>Android demo released at Euskal Encounter 27 Open Demo Compo.</p>
+						<p>
+							<a href="prods/PTF-IL&M.apk" class="btn btn-default">APK download</a>			
+							<a href="https://play.google.com/store/apps/details?id=com.pantuflas.euskaldemo2019" target="_blank" class="btn btn-default">Google Play</a>
+							<a href="https://www.youtube.com/watch?v=wdmCuiGug98" target="_blank" class="btn btn-default">Video</a>							
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/portable_computation.png" alt="">
+					<div class="panel-body">
+						<h4><a href="https://www.youtube.com/watch?v=0gov6xGxHf0" target="_blank">Portable Computation</a></h4>
+						<p>Android intro 64 kb released at Euskal Encounter 27 Open Intro Compo..</p>
+						<p>
+							<a href="prods/PTF-Portable_Computation_in64k.apk" class="btn btn-default">APK download</a>			
+							<a href="https://play.google.com/store/apps/details?id=com.pantuflas.euskalintro2019" target="_blank" class="btn btn-default">Google Play</a>
+							<a href="https://www.youtube.com/watch?v=0gov6xGxHf0" target="_blank" class="btn btn-default">Video</a>							
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>	
+		
+		
+		<div class="row products">
+
+            <div class="col-lg-12">
+                <h2 class="page-header">PC</h2>
+            </div>
+		
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/invasors.jpg" alt="">
+					<div class="panel-body">					
+						<h4><a href="https://www.youtube.com/watch?v=4lrjMHWxZu0" target="_blank">Invasors from the planet disco </a></h4>
+						<p>PC intro 64kb released at Euskal 2010 Open Intro Compo.</p>
+						<p>
+							<a href="prods/Ptf_INVASORS FROM THE PLANET DISCO.zip" class="btn btn-default">Download</a>			
+							<a href="https://www.youtube.com/watch?v=4lrjMHWxZu0" target="_blank" class="btn btn-default">Video</a>														
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/sagamonstersystem.jpg" alt="">
+					<div class="panel-body">
+						<h4><a href="https://www.youtube.com/watch?v=fo9Fl19vxqI" target="_blank">SAGA Monster System</a></h4>
+						<p>PC intro 64kb released at Euskal 2009 Intro 64kb Compo.</p>
+						<p>
+							<a href="prods/ptf_sagams.zip" class="btn btn-default">Download</a>		
+							<a href="https://www.youtube.com/watch?v=fo9Fl19vxqI" target="_blank" class="btn btn-default">Video</a>														
+						</p>
+					</div>				
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/striptext.jpg" alt="">
+					<div class="panel-body">					
+						<h4><a href="https://www.youtube.com/watch?v=zTVJzYCSe0w" target="_blank">StripText</a></h4>
+						<p>PC intro 4kb released at Euskal 2009 Intro 4kb Compo.</p>
+						<p>
+							<a href="prods/ptf_striptext.zip" class="btn btn-default">Download</a>
+							<a href="https://www.youtube.com/watch?v=zTVJzYCSe0w" target="_blank" class="btn btn-default">Video</a>																					
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/hypnotictour.jpg" alt="">
+					<div class="panel-body">
+						<h4><a href="https://www.youtube.com/watch?v=tWl0onL8I90" target="_blank">Hypnotic Tour</a></h4>
+						<p>PC intro 4kb released at Euskal 2008 Intro 4kb Compo.</p>
+						<p>
+							<a href="prods/pantuflas-hypnotic_tour.zip" class="btn btn-default">Download</a>
+							<a href="https://www.youtube.com/watch?v=tWl0onL8I90" target="_blank" class="btn btn-default">Video</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/notv.jpg" alt="">
+					<div class="panel-body">
+						<h4><a href="https://www.youtube.com/watch?v=MGHcgSB1pdc" target="_blank">NO TV</a></h4>
+						<p>PC intro 64kb released at Euskal 2008 Intro 64kb Compo.</p>
+						<p>
+							<a href="prods/pantuflas-notv.zip" class="btn btn-default">Download</a>	
+							<a href="https://www.youtube.com/watch?v=MGHcgSB1pdc" target="_blank" class="btn btn-default">Video</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="col-sm-4 col-lg-4 col-md-4">
+				<div class="thumbnail">
+					<img src="images/bezierrintro.jpg" alt="">
+					<div class="panel-body">
+						<h4><a href="prods/ch1p_bezierrintro.zip">Bezierrintro</a></h4>
+						<p>PC intro 64kb released at Euskal 2007 Intro 64kb Compo.</p>
+						<p>
+							<a href="prods/ch1p_bezierrintro.zip" class="btn btn-default">Download</a>								
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>	
+		
+        
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Pantuflas Software, 2020</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
 </body>
+
 </html>
